@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SHK Vocabulary Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+
+        <h1 id="question">Loading...</h1>
+
+        <div id="answer" class="hidden">
+            <h2 id="germanWord"></h2>
+            <p id="page"></p>
+            <p id="description"></p>
+        </div>
+
+        <button id="showButton">
+            Show Answer
+        </button>
+
+        <button id="nextButton">
+            Next Word
+        </button>
+
+    </div>
+
+    <div class="rating-buttons hidden">
+
+        <button id="easyButton">
+            I know it well
+        </button>
+
+        <button id="hardButton">
+            Almost know it
+        </button>
+
+        <button id="againButton">
+            I have no idea
+        </button>
+
+    </div>
+
+    <div id="stats">
+
+        <p>
+            I know it well:
+            <span id="easyCount">0</span>
+        </p>
+
+        <p>
+            Almost know it:
+            <span id="hardCount">0</span>
+        </p>
+
+        <p>
+            I have no idea:
+            <span id="againCount">0</span>
+        </p>
+
+    </div>
+
+    <div id="sessionContainer">
+
+    <p>
+        Today's session:
+        <span id="sessionCount">
+            0
+        </span>
+        cards studied
+    </p>
+
+    <div id="progressBarOuter">
+        <div id="progressBarInner"></div>
+    </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
