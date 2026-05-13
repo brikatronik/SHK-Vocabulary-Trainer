@@ -7,7 +7,7 @@ let stats = {
 };
 
 let sessionCount = 0;
-const dailyGoal = 50;
+const dailyGoal = 25;
 
 async function loadDatabase() {
 
@@ -52,16 +52,38 @@ async function loadDatabase() {
             JSON.parse(savedStats);
     }
 
-    const savedSession =
+    const today =
+    new Date().toDateString();
+
+    const savedDate =
         localStorage.getItem(
-            "sessionCount"
+            "lastStudyDate"
         );
 
-    if(savedSession) {
-        sessionCount =
-            Number(savedSession);
+    if(savedDate !== today) {
+
+        // New day → reset session
+        sessionCount = 0;
+
+        localStorage.setItem(
+            "lastStudyDate",
+            today
+        );
+
+    } else {
+
+        const savedSession =
+            localStorage.getItem(
+                "sessionCount"
+            );
+
+        if(savedSession) {
+            sessionCount =
+                Number(savedSession);
+        }
     }
 
+    updateSession();
     updateStats();
     updateSession();
     showRandomWord();
@@ -135,13 +157,20 @@ function chooseWeightedWord() {
 
 function showRandomWord() {
 
+    // Hide answer
     document
         .getElementById("answer")
         .classList.add("hidden");
 
+    // Hide rating buttons
     document
         .querySelector(".rating-buttons")
         .classList.add("hidden");
+
+    // Show answer button again
+    document
+        .getElementById("showButton")
+        .classList.remove("hidden");
 
     currentWord =
         chooseWeightedWord();
@@ -154,12 +183,9 @@ function showRandomWord() {
 
 function showAnswer() {
 
+    // Show answer
     document
         .getElementById("answer")
-        .classList.remove("hidden");
-
-    document
-        .querySelector(".rating-buttons")
         .classList.remove("hidden");
 
     document
@@ -170,13 +196,23 @@ function showAnswer() {
     document
         .getElementById("page")
         .textContent =
-        "Page: " +
+        "Seite: " +
         currentWord.page;
 
     document
         .getElementById("description")
         .textContent =
         currentWord.description || "";
+
+    // Hide answer button
+    document
+        .getElementById("showButton")
+        .classList.add("hidden");
+
+    // Show rating buttons
+    document
+        .querySelector(".rating-buttons")
+        .classList.remove("hidden");
 }
 
 function saveProgress() {
@@ -255,13 +291,6 @@ document
     .addEventListener(
         "click",
         showAnswer
-    );
-
-document
-    .getElementById("nextButton")
-    .addEventListener(
-        "click",
-        showRandomWord
     );
 
 document

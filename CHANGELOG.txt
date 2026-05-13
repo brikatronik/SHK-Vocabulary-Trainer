@@ -1,0 +1,29 @@
+# Changelog
+
+## V0.3 - 2026-05-13
+### Changed
+- UI improved : Portrait layout for phones - Reorganized blocks vertically
+- Better button colors for readability
+- Interface in German
+- Daily count is 25 instead of 50
+
+### Removed
+- Button "Next card" doesn´t make sense anymore
+
+---
+
+## V0.2 - 2026-05-11
+### Added
+- Daily progression bar
+- "I know it" counter with probability of apparition for hard/easy cards
+
+### Fixed
+- Button display bug after answer reveal
+
+---
+
+## V0.3 - 2026-05-10
+### Added
+- Initial version
+- Question/answer card system
+- CSV vocabulary imported 1900 words
