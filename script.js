@@ -179,6 +179,12 @@ function showRandomWord() {
         .getElementById("question")
         .textContent =
         currentWord.french;
+
+    // Hide previous image
+    document
+        .getElementById("pageImage")
+        .classList.add("hidden");
+
 }
 
 function showAnswer() {
@@ -194,12 +200,6 @@ function showAnswer() {
         currentWord.german;
 
     document
-        .getElementById("page")
-        .textContent =
-        "Seite: " +
-        currentWord.page;
-
-    document
         .getElementById("description")
         .textContent =
         currentWord.description || "";
@@ -213,6 +213,20 @@ function showAnswer() {
     document
         .querySelector(".rating-buttons")
         .classList.remove("hidden");
+
+    // Show picture
+    const image =
+        document.getElementById(
+            "pageImage"
+        );
+
+        image.src =
+            `images/${currentWord.page}.webp`;
+
+        image.classList.remove(
+            "hidden"
+        );
+    
 }
 
 function saveProgress() {
