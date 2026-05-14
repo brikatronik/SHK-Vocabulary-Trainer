@@ -110,21 +110,24 @@ button {
 }
 
 .rating-buttons button {
+
     flex: 1;
 
     width: auto;
 
-    padding: 14px 8px;
+    min-height: 96px;
 
-    font-size: clamp(22px, 3.5vw, 35px);
+    padding: 22px 10px;
 
-    min-height: 72px;
+    font-size: clamp(22px, 4.5vw, 38px);
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     text-align: center;
+
+    border-radius: 18px;
 }
 
 /* Kenne ich */
@@ -221,4 +224,25 @@ button {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding-bottom: 20px;
+}
+
+@media (orientation: landscape) {
+
+    #page {
+        display: none;
+    }
+
+    #description {
+        display: none;
+    }
+
+    #question {
+        font-size: clamp(28px, 4vw, 42px);
+    }
+
+    #germanWord {
+        font-size: clamp(24px, 3.5vw, 36px);
+    }
+
 }
