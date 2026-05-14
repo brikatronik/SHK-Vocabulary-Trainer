@@ -71,12 +71,8 @@ h1, h2, h3, p {
 button {
     width: 100%;
 
-    padding: 22px;
-
     border: none;
     border-radius: 18px;
-
-    font-size: clamp(18px, 4vw, 28px);
     font-weight: bold;
 
     cursor: pointer;
@@ -85,18 +81,21 @@ button {
 /* Antwort anzeigen */
 
 #showButton {
+
     background: #1e88e5;
     color: white;
-    padding: 28px;
+
+    height: 120px;
+    padding: 0 10px;
     margin-top: 30px;
-    font-size: clamp(22px, 4.5vw, 38px);
-}
 
-/* Nächste Karte */
+    font-size: clamp(24px, 5vw, 42px);
 
-#nextButton {
-    background: #757575;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 18px;
 }
 
 /* Rating buttons */
@@ -115,11 +114,11 @@ button {
 
     width: auto;
 
-    min-height: 96px;
+    height: 120px;
 
-    padding: 22px 10px;
+    padding: 0 10px;
 
-    font-size: clamp(22px, 4.5vw, 38px);
+    font-size: clamp(24px, 5vw, 42px);
 
     display: flex;
     justify-content: center;
@@ -165,7 +164,7 @@ button {
     width: 100%;
     box-sizing: border-box;
 
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
 }
 
@@ -182,7 +181,7 @@ button {
     border-radius: 14px;
     padding: 10px;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 #progressBarOuter {
@@ -238,11 +237,39 @@ button {
     }
 
     #question {
-        font-size: clamp(28px, 4vw, 42px);
-    }
-
-    #germanWord {
         font-size: clamp(24px, 3.5vw, 36px);
     }
 
+    #germanWord {
+        font-size: clamp(20px, 3vw, 30px);
+    }
+
+    .bottom-section {
+        gap: 8px;
+        padding-bottom: 5px;
+    }
+
+    #sessionContainer {
+
+    font-size: 14px;
+    }
+
+    #stats {
+
+    font-size: 14px;
+
+    }
+
+    .rating-buttons button {
+
+    height: 60px;
+    padding: 0 8px;
+    font-size: clamp(18px, 2.5vw, 24px);
+    }
+
+    #showButton {
+    height: 60px;
+    padding: 0 8px;
+    font-size: clamp(18px, 2.5vw, 24px);
+    }
 }
