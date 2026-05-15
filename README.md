@@ -2,7 +2,7 @@
 Greetings from Berlin !
 
 Future development ideas : 
-    - In addition to FR->GER, add GER->FR and mixed mode 50/50
+    - In addition to FR->GER, add GER->FR, GER->ENG and mixed mode 50/50
     - Pictures
     - No immediate repeats fix
     - Wrong answer replay mode that only shows Kein Anhung words
