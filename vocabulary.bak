@@ -9,7 +9,7 @@
 "107";"23";"Chaussure de travail";"Arbeitsschuh";"Chaussure de travail";;;"Sichereit";;;"1"
 "1435";"23";"Casque de protection";"Schutzhelm";"Casque de protection";;;"Sichereit";;;"1"
 "1481";"23";"Chaussure de sécurité";"Sicherheitsschuh";"Chaussure de sécurité";;;"Sichereit";;;"1"
-"1434";"23,8";"Gants de protection";"Schutzhandschuh";"Gant de protection";;;"Sichereit";;;"1"
+"1434";"23";"Gants de protection";"Schutzhandschuh";"Gant de protection";;;"Sichereit";;;"1"
 "554";"24";"Protecteurs auditifs";"Gehörschützer";"Casque anti-bruits";;;"Sichereit";;;"1"
 "1107";"24";"Cache-oreilles";"Ohrenschützer";"Protège oreilles";;;"Sichereit";;;"1"
 "1450";"24";"Lunettes de protection pour soudeurs";"Schweißerschutzbrille";"Masque de protection";;;"Sichereit";;;"1"
@@ -92,7 +92,7 @@
 "987";"31";"champ magnétique";"Magnetfeld";"Champ magnétique";;;"Sichereit";;;"1"
 "1334";"31";"Risque de glissade";"Rutschgefahr";"Risque de glissade";;;"Sichereit";;;"1"
 "1620";"31";"Substance toxique";"Stoff, giftig";"Substance toxique";;;"Sichereit";;;"1"
-"1519";"31,187";"Tension électrique";"Spannung,elektrisch";"Tension électrique";;;"Sichereit";;;"1"
+"1519";"31";"Tension électrique";"Spannung,elektrisch";"Tension électrique";;;"Sichereit";;;"1"
 "87";"32";"Démarrage automatique";"Anlauf, automatisch";"Démarrage automatique";;;"Sichereit";;;"1"
 "418";"32";"Atmosphère explosive";"explosionsfähige Atmosphäre";"Atmosphère explosive";;;"Sichereit";;;"1"
 "527";"32";"Bouteille de gaz";"Gasflasche";"Bouteille de gaz";;;"Sichereit";;;"1"
@@ -179,13 +179,13 @@
 "1545";"49";"Longueur de pointe";"Spitzenlänge";"Longueur de pointe";;;"Fertigungstechnik";;;"1"
 "1546";"49";"Angle de pointe";"Spitzenwinkel";"Angle de pointe";;;"Fertigungstechnik";;;"1"
 "1813";"49";"W - matériaux tendres";"W - weiche Werkstoffe";"T - matériaux tendres, comme l´aluminium";;;"Fertigungstechnik";;;"1"
-"179";"50";"Foret à béton";"Betonbohrer";"Forêt à béton";;;"Fertigungstechnik";;;
-"204";"50";"Foret à tôle";"Blechbohrer";"Forêt à tôle";;;"Fertigungstechnik";;;
-"713";"50";"Foret pour bois et plastique";"Holz- und Kunststoffbohrer";"Forêt à bois et à plastique";;;"Fertigungstechnik";;;
-"720";"50";"Foret HSS";"HSS-Bohrer";"Forêt HSS";;;"Fertigungstechnik";;;
-"1359";"50";"Foret à rainurer";"Schälbohrer";"Manchon coulissant";;;"Fertigungstechnik";;;
-"1605";"50";"Foret à pierre";"Steinbohrer";"Forêt à pierre";;;"Fertigungstechnik";;;
-"1015";"50,131";"Foret à métaux";"Metallbohrer";;;;"Fertigungstechnik";;;
+"179";"50";"Foret à béton";"Betonbohrer";"Forêt à béton";;;"Fertigungstechnik";;;"1"
+"204";"50";"Foret à tôle";"Blechbohrer";"Forêt à tôle";;;"Fertigungstechnik";;;"1"
+"713";"50";"Foret pour bois et plastique";"Holz- und Kunststoffbohrer";"Forêt à bois et à plastique";;;"Fertigungstechnik";;;"1"
+"720";"50";"Foret HSS";"HSS-Bohrer";"Forêt HSS";;;"Fertigungstechnik";;;"1"
+"1359";"50";"Foret à rainurer";"Schälbohrer";"Le foret à pointe de centrage";;;"Fertigungstechnik";;;"1"
+"1605";"50";"Foret à pierre";"Steinbohrer";"Forêt à pierre";;;"Fertigungstechnik";;;"1"
+"1015";"50";"Foret à métaux";"Metallbohrer";;;;"Fertigungstechnik";;;"1"
 "59";"51";"Marteau perforateur sans fil";"Akkubohrhammer";"Marteau perforateur sans fil";;;"Fertigungstechnik";;;
 "224";"51";"Marteau perforateur";"Bohrhammer";"Marteau perfortateur";;;"Fertigungstechnik";;;
 "226";"51";"Couronne de forage";"Bohrkrone";"Trépan";;;"Fertigungstechnik";;;
