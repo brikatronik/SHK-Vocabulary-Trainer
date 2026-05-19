@@ -185,94 +185,94 @@
 "720";"50";"Foret HSS";"HSS-Bohrer";"Forêt HSS";;;"Fertigungstechnik";;;"1"
 "1359";"50";"Foret à rainurer";"Schälbohrer";"Le foret à pointe de centrage";;;"Fertigungstechnik";;;"1"
 "1605";"50";"Foret à pierre";"Steinbohrer";"Forêt à pierre";;;"Fertigungstechnik";;;"1"
-"1015";"50";"Foret à métaux";"Metallbohrer";;;;"Fertigungstechnik";;;"1"
-"59";"51";"Marteau perforateur sans fil";"Akkubohrhammer";"Marteau perforateur sans fil";;;"Fertigungstechnik";;;
-"224";"51";"Marteau perforateur";"Bohrhammer";"Marteau perfortateur";;;"Fertigungstechnik";;;
-"226";"51";"Couronne de forage";"Bohrkrone";"Trépan";;;"Fertigungstechnik";;;
-"779";"51";"Carotteuse";"Kernbohrmaschine";"Carotteuse";;;"Fertigungstechnik";;;
-"1377";"51";"Perceuse à percussion";"Schlagbohrmaschine";"Perceuse à percution";;;"Fertigungstechnik";;;
-"1357";"52";"Perceuse à colonne";"Säulenbohrmaschine";"Perceuse à colonne";;;"Fertigungstechnik";;;
-"228";"53";"Broche de forage";"Bohrspindel";"Broche de perçage";;;"Fertigungstechnik";;;
-"230";"53";"Table de forage";"Bohrtisch";"Table de forage";;;"Fertigungstechnik";;;
-"294";"53";"Compte-tours";"Drehzahlmesser";"Compte-tours";;;"Fertigungstechnik";;;
-"295";"53";"Réglage de la vitesse";"Drehzahlverstellung";;;;"Fertigungstechnik";;;
-"517";"53";"Plaque d'appui";"Fußplatte";;;;"Fertigungstechnik";;;
-"863";"53";"Tuyau de liquide de refroidissement";"Kühlmittelschlauch";;;;"Fertigungstechnik";;;
-"441";"53";"levier de blocage";"Feststellhebel";"Levier de blocage";;;"Fertigungstechnik";;;
-"862";"53";"Pompe de refroidissement";"Kühlmittelpumpe";"Pompe de refroidissement";;;"Fertigungstechnik";;;
-"899";"53";"Manivelle";"Kurbel";"Manivelle";;;"Fertigungstechnik";;;
-"1086";"53";"Arrêt d'urgence";"Not-Aus";"Arrêt d'urgence";;;"Fertigungstechnik";;;
-"1255";"53";"Transmission par courroie";"Riemengetriebe";"Vanne de régulation";;;"Fertigungstechnik";;;
-"1356";"53";"Colonne";"Säule";"Colonne";;;"Fertigungstechnik";;;
-"1670";"53";"Butée de profondeur";"Tiefenanschlag";"Butée de profondeur";;;"Fertigungstechnik";;;
-"1809";"53";"Avance";"Vorschub";"Avance";;;"Fertigungstechnik";;;
-"1878";"53";"Support de pièce";"Werkstückaufnahme";"Logement de pièce à usiner";;;"Fertigungstechnik";;;
-"379";"53,213";"Moteur électrique";"Elektromotor";"Moteur électrique";;;"Fertigungstechnik";;;
-"222";"54";"Mandrin pour forets à rainure longitudinale";"Bohrfutter für Bohrer mit Längsnut";"Mandrin pour forêt avec rainure longitudinale";;;"Fertigungstechnik";;;
-"223";"54";"Clé pour mandrin";"Bohrfutterschlüssel";;;;"Fertigungstechnik";;;
-"770";"54";"fraise conique";"Kegelsenker";;;;"Fertigungstechnik";;;
-"1223";"54";"Fraise à rainurer transversale";"Querlochsenker";;;;"Fertigungstechnik";;;
-"1912";"54";"Mandrin à couronne dentée";"Zahnkranzbohrfutter";;;;"Fertigungstechnik";;;
-"461";"54";"Fraise à rainurer";"Flachsenker";"Drainage";;;"Fertigungstechnik";;;
-"908";"54";"Rainure longitudinale";"Längsnut";"Rainure longitudinale";;;"Fertigungstechnik";;;
-"1407";"54";"Mandrin à serrage rapide";"Schnellspannbohrfutter";"Tournevis";;;"Fertigungstechnik";;;
-"437";"55";"Coupeuse";"Fertigschneider";;;;"Fertigungstechnik";;;
-"1808";"55";"Pré-coupeur";"Vorschneider";;;;"Fertigungstechnik";;;
-"735";"55";"Filetage intérieur";"Innengewinde";"Filetage intérieur";;;"Fertigungstechnik";;;
-"1033";"55";"Coupe-câbles";"Mittelschneider";"Coupe-câbles";;;"Fertigungstechnik";;;
-"1257";"55";"Anneau";"Ring";"Anneau";;;"Fertigungstechnik";;;
-"580";"55,131";"taraud";"Gewindebohrer";"Taraud";;;"Fertigungstechnik";;;
-"157";"55,56";"Filetage extérieur";"Außengewinde";"Filetage extérieur";;;"Fertigungstechnik";;;
-"578";"55,95";"filetage";"Gewinde";"Filetage";;;"Fertigungstechnik";;;
-"587";"56";"Tête de filetage";"Gewindeschneidkopf";"Tête de taraudage";;;"Fertigungstechnik";;;
-"588";"56";"Kit de taraudage";"Gewindeschneidzeug";"Tuyau de gaz";;;"Fertigungstechnik";;;
-"638";"56";"Pince à main";"Handkluppe";"Pince à main";;;"Fertigungstechnik";;;
-"805";"56";"Pince";"Kluppe";"Pince";;;"Fertigungstechnik";;;
-"1230";"56";"Levier à cliquet";"Ratschenhebel";"Levier à cliquet";;;"Fertigungstechnik";;;
-"1393";"56";"Filière";"Schneideisen";"Filière";;;"Fertigungstechnik";;;
-"586";"56,57";"Taraud";"Gewindeschneider";"Taraud";;;"Fertigungstechnik";;;
-"1396";"56,57";"Tête de coupe";"Schneidkopf";"Tête de coupe";;;"Fertigungstechnik";;;
-"1228";"56,94";"Clé à cliquet";"Ratsche";"Clé à cliquet";;;"Fertigungstechnik";;;
-"584";"57";"Machine à fileter";"Gewindeschneidemaschine";;;;"Fertigungstechnik";;;
-"585";"57";"Machine à fileter, à guidage manuel";"Gewindeschneidemaschine, handgeführt";;;;"Fertigungstechnik";;;
-"1409";"57";"Tête de coupe à changement rapide";"Schnellwechsel-Schneidkopf";;;;"Fertigungstechnik";;;
-"476";"58";"Flex";"Flex";;;;"Fertigungstechnik";;;
-"1694";"58";"Disque de tronçonnage";"Trennschleifscheibe";;;;"Fertigungstechnik";;;
-"424";"58";"Code couleur de la meule";"Farbcodierung der Schleifscheibe";"Code couleur de la meule";;;"Fertigungstechnik";;;
-"1693";"58";"Tronçonnage";"trennschleifen";"Tronçonnage";;;"Fertigungstechnik";;;
-"1723";"58";"Vitesse périphérique";"Umfangsgeschwindigkeit";"Vitesse périphérique";;;"Fertigungstechnik";;;
-"1899";"58";"Meuleuse d'angle";"Winkelschleifer";"Meuleuse d'angle";;;"Fertigungstechnik";;;
-"26";"59";"éplucher";"abschälen";"Écrouter";;;"Fertigungstechnik";;;
-"85";"59";"chanfreiner";"anfasen";"Chanfreiner";;;"Fertigungstechnik";;;
-"391";"59";"Ébavureur à entraînement électrique";"Entgrater mit elektrischem Antrieb";;;;"Fertigungstechnik";;;
-"634";"59";"Ébavureur manuel";"Handentgrater";;;;"Fertigungstechnik";;;
-"1366";"59";"Outil de pelage";"Schälwerkzeug";;;;"Fertigungstechnik";;;
-"738";"59";"Ébavureur de tube intérieur";"Innenrohrentgrater";"Ebavureur de tube intérieur";;;"Fertigungstechnik";;;
-"1691";"59";"Appareil de tronçonnage et de chanfreinage";"Trenn- und Anfasgerät";"Appareil à tronçonner et à chanfreiner";;;"Fertigungstechnik";;;
-"1737";"59";"Ébavureur universel";"Universalentgrater";"Réseau d'alimentation";;;"Fertigungstechnik";;;
-"390";"59,79";"Ébavurer";"entgraten";"ébavurer";;;"Fertigungstechnik";;;
-"200";"60";"Tôle";"Blech";"Tôle";;;"Fertigungstechnik";;;
-"147";"60";"Dégager";"ausklinken";;;;"Fertigungstechnik";;;
-"726";"60";"Ciseaux idéaux";"Ideale Schere";"Cisaille idéale";;;"Fertigungstechnik";;;
-"1370";"60";"Ciseaux";"Schere";"Ciseaux";;;"Fertigungstechnik";;;
-"177";"61";"Réglage";"beschneiden";"Ventilateur axial";;;"Fertigungstechnik";;;
-"354";"61";"entailler";"einschneiden";"Inciser";;;"Fertigungstechnik";;;
-"850";"61";"découpe circulaire";"kreisschneiden";;;;"Fertigungstechnik";;;
-"944";"61";"Découpe de trous";"lochschneiden";;;;"Fertigungstechnik";;;
-"561";"61";"Ciseaux droits";"Gerade Schere";"Cisaille droite";;;"Fertigungstechnik";;;
-"629";"61";"Cisaille à tôle manuelle, électrique";"Handblechschere, elektrisch";"Taraud";;;"Fertigungstechnik";;;
-"943";"61";"Cisaille à perforer";"Lochschere";"Cisaille à trous";;;"Fertigungstechnik";;;
-"637";"62";"Ciseaux à levier manuel";"Handhebelschere";;;;"Fertigungstechnik";;;
-"1078";"62";"Dispositif de maintien";"Niederhalter";;;;"Fertigungstechnik";;;
-"666";"62";"Cisaille à levier";"Hebeltafelschere";"Cisaille à levier";;;"Fertigungstechnik";;;
-"1302";"62";"Cisaille à tôle à rouleaux";"Rollenblechschere";"Cisaille à tôle à rouleaux";;;"Fertigungstechnik";;;
-"29";"63";"Couper";"Abschneiden";"Tronçonnage";;;"Fertigungstechnik";;;
-"710";"63";"Meule creuse";"Hohlschliff";;;;"Fertigungstechnik";;;
-"1587";"63";"Compression";"Stauchen";;;;"Fertigungstechnik";;;
-"1394";"63";"Lames";"Schneiden";"Couper";;;"Fertigungstechnik";;;
-"1403";"63";"processus de coupe";"Schneidvorgang";"Processus de coupe";;;"Fertigungstechnik";;;
-"1692";"63";"Tronçonnage";"Trennen";"Tronçonnage";;;"Fertigungstechnik";;;
-"64";"64";"Coupe-tube sans fil";"Akku-Rohrschneider";"Coupe-tubes sans fil";;;"Fertigungstechnik";;;
+"1015";"50";"Foret à métaux";"Metallbohrer";"Forêt HSS";;;"Fertigungstechnik";;;"1"
+"59";"51";"Marteau perforateur sans fil";"Akkubohrhammer";"Marteau perforateur sans fil";;;"Fertigungstechnik";;;"1"
+"224";"51";"Marteau perforateur";"Bohrhammer";"Marteau perfortateur";;;"Fertigungstechnik";;;"1"
+"226";"51";"Couronne de forage";"Bohrkrone";"Trépan";;;"Fertigungstechnik";;;"1"
+"779";"51";"Carotteuse";"Kernbohrmaschine";"Carotteuse";;;"Fertigungstechnik";;;"1"
+"1377";"51";"Perceuse à percussion";"Schlagbohrmaschine";"Perceuse à percution";;;"Fertigungstechnik";;;"1"
+"1357";"52";"Perceuse à colonne";"Säulenbohrmaschine";"Perceuse à colonne";;;"Fertigungstechnik";;;"1"
+"228";"53";"Broche de forage";"Bohrspindel";"Broche de perçage";;;"Fertigungstechnik";;;"1"
+"230";"53";"Table de forage";"Bohrtisch";"Table de forage";;;"Fertigungstechnik";;;"1"
+"294";"53";"Compte-tours";"Drehzahlmesser";"Compte-tours";;;"Fertigungstechnik";;;"1"
+"295";"53";"Réglage de la vitesse";"Drehzahlverstellung";;;;"Fertigungstechnik";;;"1"
+"517";"53";"Plaque d'appui";"Fußplatte";"le réglage de vitesse";;;"Fertigungstechnik";;;"1"
+"863";"53";"Tuyau de liquide de refroidissement";"Kühlmittelschlauch";"le flexible pour réfrigérant";;;"Fertigungstechnik";;;"1"
+"441";"53";"levier de blocage";"Feststellhebel";"Levier de blocage";;;"Fertigungstechnik";;;"1"
+"862";"53";"Pompe de refroidissement";"Kühlmittelpumpe";"Pompe de refroidissement";;;"Fertigungstechnik";;;"1"
+"899";"53";"Manivelle";"Kurbel";"Manivelle";;;"Fertigungstechnik";;;"1"
+"1086";"53";"Arrêt d'urgence";"Not-Aus";"Arrêt d'urgence";;;"Fertigungstechnik";;;"1"
+"1255";"53";"Transmission par courroie";"Riemengetriebe";"l'entraînement par courroie";;;"Fertigungstechnik";;;"1"
+"1356";"53";"Colonne";"Säule";"Colonne";;;"Fertigungstechnik";;;"1"
+"1670";"53";"Butée de profondeur";"Tiefenanschlag";"Butée de profondeur";;;"Fertigungstechnik";;;"1"
+"1809";"53";"Avance";"Vorschub";"Avance";;;"Fertigungstechnik";;;"1"
+"1878";"53";"Support de pièce";"Werkstückaufnahme";"Logement de pièce à usiner";;;"Fertigungstechnik";;;"1"
+"379";"53";"Moteur électrique";"Elektromotor";"Moteur électrique";;;"Fertigungstechnik";;;"1"
+"222";"54";"Mandrin pour forets à rainure longitudinale";"Bohrfutter für Bohrer mit Längsnut";"Mandrin pour forêt avec rainure longitudinale";;;"Fertigungstechnik";;;"1"
+"223";"54";"Clé pour mandrin";"Bohrfutterschlüssel";"la clé à mandrin";;;"Fertigungstechnik";;;"1"
+"770";"54";"fraise conique";"Kegelsenker";"la fraise à chanfreiner";;;"Fertigungstechnik";;;"1"
+"1223";"54";"Fraise à rainurer transversale";"Querlochsenker";"la fraise à ébavurer à trou transversal";;;"Fertigungstechnik";;;"1"
+"1912";"54";"Mandrin à couronne dentée";"Zahnkranzbohrfutter";"le mandrin de perçage à couronne dentée";;;"Fertigungstechnik";;;"1"
+"461";"54";"Fraise à rainurer";"Flachsenker";"la fraise plate";;;"Fertigungstechnik";;;"1"
+"908";"54";"Rainure longitudinale";"Längsnut";"Rainure longitudinale";;;"Fertigungstechnik";;;"1"
+"1407";"54";"Mandrin à serrage rapide";"Schnellspannbohrfutter";"Mandrin auto-serrant";;;"Fertigungstechnik";;;"1"
+"437";"55";"Coupeuse";"Fertigschneider";"taraud finisseur";;;"Fertigungstechnik";;;"1"
+"1808";"55";"Pré-coupeur";"Vorschneider";"taraud ébaucheur";;;"Fertigungstechnik";;;"1"
+"735";"55";"Filetage intérieur";"Innengewinde";"Filetage intérieur";;;"Fertigungstechnik";;;"1"
+"1033";"55";"Coupe-câbles";"Mittelschneider";"Coupe-câbles";;;"Fertigungstechnik";;;"1"
+"1257";"55";"Anneau";"Ring";"Anneau";;;"Fertigungstechnik";;;"1"
+"580";"55";"taraud";"Gewindebohrer";"Taraud";;;"Fertigungstechnik";;;"1"
+"157";"55";"Filetage extérieur";"Außengewinde";"Filetage extérieur";;;"Fertigungstechnik";;;"1"
+"578";"55";"filetage";"Gewinde";"Filetage";;;"Fertigungstechnik";;;"1"
+"587";"56";"Tête de filetage";"Gewindeschneidkopf";"Tête de taraudage";;;"Fertigungstechnik";;;"1"
+"588";"56";"Kit de taraudage";"Gewindeschneidzeug";"Outil de taraudage";;;"Fertigungstechnik";;;"1"
+"638";"56";"Pince à main";"Handkluppe";"Pince à fileter à main";;;"Fertigungstechnik";;;"1"
+"805";"56";"Pince";"Kluppe";"Pince à fileter à main";;;"Fertigungstechnik";;;"1"
+"1230";"56";"Levier à cliquet";"Ratschenhebel";"Levier à cliquet";;;"Fertigungstechnik";;;"1"
+"1393";"56";"Filière";"Schneideisen";"Filière de coupe";;;"Fertigungstechnik";;;"1"
+"586";"56";"Taraud";"Gewindeschneider";"Outil de taraudage";;;"Fertigungstechnik";;;"1"
+"1396";"56";"Tête de coupe";"Schneidkopf";"Tête de taraudage";;;"Fertigungstechnik";;;"1"
+"1228";"56";"Clé à cliquet";"Ratsche";"Clé à cliquet";;;"Fertigungstechnik";;;"1"
+"584";"57";"Machine à fileter";"Gewindeschneidemaschine";"Machine à fileter";;;"Fertigungstechnik";;;"1"
+"585";"57";"Machine à fileter, à guidage manuel";"Gewindeschneidemaschine, handgeführt";"Machine à fileter, à guidage manuel";;;"Fertigungstechnik";;;"1"
+"1409";"57";"Tête de coupe à changement rapide";"Schnellwechsel-Schneidkopf";"la tête de filetage automatisée";;;"Fertigungstechnik";;;"1"
+"476";"58";"Flex";"Flex";"Meuleuse d'angle";;;"Fertigungstechnik";;;"1"
+"1694";"58";"Disque de tronçonnage";"Trennschleifscheibe";"Disque à tronçonner";;;"Fertigungstechnik";;;"1"
+"424";"58";"Code couleur de la meule";"Farbcodierung der Schleifscheibe";"Code couleur de la meule";;;"Fertigungstechnik";;;"1"
+"1693";"58";"Tronçonnage";"trennschleifen";"Tronçonnage";;;"Fertigungstechnik";;;"1"
+"1723";"58";"Vitesse périphérique";"Umfangsgeschwindigkeit";"Vitesse périphérique";;;"Fertigungstechnik";;;"1"
+"1899";"58";"Meuleuse d'angle";"Winkelschleifer";"Meuleuse d'angle";;;"Fertigungstechnik";;;"1"
+"26";"59";"éplucher";"abschälen";"Écrouter";;;"Fertigungstechnik";;;"1"
+"85";"59";"chanfreiner";"anfasen";"Chanfreiner";;;"Fertigungstechnik";;;"1"
+"391";"59";"Ébavureur à entraînement électrique";"Entgrater mit elektrischem Antrieb";"Ébavureur à entraînement électrique";;;"Fertigungstechnik";;;"1"
+"634";"59";"Ébavureur manuel";"Handentgrater";"Ébavureur manuel";;;"Fertigungstechnik";;;"1"
+"1366";"59";"Outil de pelage";"Schälwerkzeug";"outil d'ecroutage";;;"Fertigungstechnik";;;"1"
+"738";"59";"Ébavureur de tube intérieur";"Innenrohrentgrater";"Ebavureur de tube intérieur";;;"Fertigungstechnik";;;"1"
+"1691";"59";"Appareil de tronçonnage et de chanfreinage";"Trenn- und Anfasgerät";"Appareil à tronçonner et à chanfreiner";;;"Fertigungstechnik";;;"1"
+"1737";"59";"Ébavureur universel";"Universalentgrater";"Ébavureur universel";;;"Fertigungstechnik";;;"1"
+"390";"59";"Ébavurer";"entgraten";"Ébavurer";;;"Fertigungstechnik";;;"1"
+"200";"60";"Tôle";"Blech";"Tôle";;;"Fertigungstechnik";;;"1"
+"147";"60";"Dégager";"ausklinken";"Encocher";;;"Fertigungstechnik";;;"1"
+"726";"60";"Ciseaux idéaux";"Ideale Schere";"Cisaille idéale";;;"Fertigungstechnik";;;"1"
+"1370";"60";"Ciseaux";"Schere";"Cisaille";;;"Fertigungstechnik";;;"1"
+"177";"61";"Réglage";"beschneiden";"Détourer";;;"Fertigungstechnik";;;"1"
+"354";"61";"entailler";"einschneiden";"Inciser";;;"Fertigungstechnik";;;"1"
+"850";"61";"découpe circulaire";"kreisschneiden";"découpe circulaire";;;"Fertigungstechnik";;;"1"
+"944";"61";"Découpe de trous";"lochschneiden";"Découpe de trous";;;"Fertigungstechnik";;;"1"
+"561";"61";"Ciseaux droits";"Gerade Schere";"Cisaille droite";;;"Fertigungstechnik";;;"1"
+"629";"61";"Cisaille à tôle manuelle, électrique";"Handblechschere, elektrisch";"Taraud";;;"Fertigungstechnik";;;"1"
+"943";"61";"Cisaille à perforer";"Lochschere";"Cisaille à perforer";;;"Fertigungstechnik";;;"1"
+"637";"62";"Ciseaux à levier manuel";"Handhebelschere";"la cisaille à levier manuelle";;;"Fertigungstechnik";;;"1"
+"1078";"62";"Dispositif de maintien";"Niederhalter";"le presseur";;;"Fertigungstechnik";;;"1"
+"666";"62";"Cisaille à levier";"Hebeltafelschere";"Cisaille à levier";;;"Fertigungstechnik";;;"1"
+"1302";"62";"Cisaille à tôle à rouleaux";"Rollenblechschere";"Cisaille à tôle à rouleaux";;;"Fertigungstechnik";;;"1"
+"29";"63";"Couper";"Abschneiden";"La coupe";;;"Fertigungstechnik";;;"1"
+"710";"63";"Meule creuse";"Hohlschliff";"Taille creuse";;;"Fertigungstechnik";;;"1"
+"1587";"63";"Compression";"Stauchen";"Refoulement";;;"Fertigungstechnik";;;"1"
+"1394";"63";"Lames";"Schneiden";"Découper";;;"Fertigungstechnik";;;"1"
+"1403";"63";"processus de coupe";"Schneidvorgang";"Processus de coupe";;;"Fertigungstechnik";;;"1"
+"1692";"63";"Tronçonnage";"Trennen";"Séparation";;;"Fertigungstechnik";;;"1"
+"64";"64";"Coupe-tube sans fil";"Akku-Rohrschneider";"Coupe-tubes sans fil";;;"Fertigungstechnik";;;"1"
 "1266";"64";"Couper un tuyau";"Rohr abschneiden";;;;"Fertigungstechnik";;;
 "1268";"64";"Coupe-tube";"Rohrabschneider";;;;"Fertigungstechnik";;;
 "1327";"64";"Lame ronde";"Rundmesser";;;;"Fertigungstechnik";;;
