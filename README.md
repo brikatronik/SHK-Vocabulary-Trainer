@@ -1,8 +1,11 @@
 2026 Lernspiel zur Vorbereitung für die SHK Prüfung.
 Greetings from Berlin !
 
+---current work in progress: clean database and add missing pictures---
+
 Future development ideas : 
-    - In addition to FR->GER, add GER->FR, GER->ENG and mixed mode 50/50
+    - Select language icon
+    - In addition to FR->GER, add GER->FR, GER->ENG. FR->ENG and mixed mode 50/50
     - Pictures
     - No immediate repeats fix
     - Wrong answer replay mode that only shows Kein Anhung words
