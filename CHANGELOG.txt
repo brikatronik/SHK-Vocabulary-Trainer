@@ -1,12 +1,13 @@
 # Changelog
 
-## V0.4 - 2026-05-13
+## V0.4 - 2026-05-30
 ### Added
 - Language selection
+- Search menu
 
 ### Changed
 - UI improved 
-- Every picture displays
+- Every picture displayed
 
 ---
 

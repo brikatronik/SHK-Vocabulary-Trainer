@@ -107,10 +107,14 @@
             Sprache wählen
         </button>
 
-        <button id="searchOption" disabled>
-            Wort suchen
+        <button id="categoryOption">
+            Kategorie wählen
         </button>
 
+        <button id="searchOption">
+            Wort suchen
+        </button>
+        Version 0.4 - Private use only
     </div>
 
     </div>
@@ -178,6 +182,107 @@
         </div>
 
     </div>
+
+    <!-- search -->
+    <div id="searchModal" class="hidden">
+
+        <div id="searchBox">
+
+            <h2>
+                Wort suchen
+            </h2>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Wort eingeben...">
+
+            <div id="searchResults">
+
+            </div>
+
+            <button id="closeSearch">
+                Abbrechen
+            </button>
+
+        </div>
+
+    </div>
+    
+    <!-- categories -->
+    <div id="categoryModal" class="hidden">
+
+        <div id="categoryBox">
+
+            <h2>
+                Kategorie wählen
+            </h2>
+
+            <div id="categoryList">
+
+                <label>
+                    <input
+                        type="checkbox"
+                        value="Sicherheit"
+                        checked>
+                    Sicherheit
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        value="Fertigungstechnik"
+                        checked>
+                    Fertigungstechnik
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        value="Werkstofftechnik"
+                        checked>
+                    Werkstofftechnik
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        value="Elektrotechnik"
+                        checked>
+                    Elektrotechnik
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        value="Sanitärtechnik"
+                        checked>
+                    Sanitärtechnik
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        value="Heizungstechnik"
+                        checked>
+                    Heizungstechnik
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        value="Klimatechnik"
+                        checked>
+                    Klimatechnik
+                </label>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
 
     <script src="script.js"></script>
 

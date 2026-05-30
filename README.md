@@ -4,13 +4,12 @@ Greetings from Berlin !
 ---current work in progress: clean database and add missing pictures---
 
 Future development ideas : 
-    - Select language icon
-    - In addition to FR->GER, add GER->FR, GER->ENG. FR->ENG and mixed mode 50/50
+    - Select language
+    - In addition to FR->GER, add GER->FR, GER->ENG. FR->ENG
     - Pictures
     - No immediate repeats fix
     - Wrong answer replay mode that only shows Kein Anhung words
-    - Category filter Heizung Sanitär Lüftung Werkzeuge Elektro
-    - Keyboard shortcuts for PC
+    - Category filter Heizung Sanitär Lüftung Werkzeuge Elektro...
+    - Keyboard shortcuts and interface for PC, landscape mode
     - Installable app (PWA)
-    - Harcore gamified mode with only hard words
     - Search bar

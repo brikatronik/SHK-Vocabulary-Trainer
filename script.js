@@ -121,8 +121,70 @@ async function loadDatabase() {
             targetLanguage;
     }
     updateLanguageDropdowns();
+
+    //load selected categories
+
+    const savedCategories =
+        localStorage.getItem(
+            "selectedCategories"
+        );
+
+    if(savedCategories) {
+
+        selectedCategories =
+            JSON.parse(
+                savedCategories
+            );
+
+        document
+            .querySelectorAll(
+                "#categoryList input"
+            )
+            .forEach(input => {
+
+                input.checked =
+                    selectedCategories
+                    .includes(
+                        input.value
+                    );
+            });
+    }
+
     showRandomWord();
 }
+
+//search variables
+const searchModal =
+    document.getElementById(
+        "searchModal"
+    );
+
+const searchInput =
+    document.getElementById(
+        "searchInput"
+    );
+
+const searchResults =
+    document.getElementById(
+        "searchResults"
+    );
+
+
+//category variables
+const categoryModal =
+    document.getElementById(
+        "categoryModal"
+    );
+
+let selectedCategories = [
+    "Sicherheit",
+    "Fertigungstechnik",
+    "Werkstofftechnik",
+    "Elektrotechnik",
+    "Sanitärtechnik",
+    "Heizungstechnik",
+    "Klimatechnik"
+];
 
 function updateSession() {
 
@@ -159,7 +221,16 @@ function chooseWeightedWord() {
 
     vocabulary.forEach(word => {
 
+        if(
+            !selectedCategories
+            .includes(
+                word.category
+            )
+        ) {
+            return;
+        }
         let weight = 1;
+
 
         switch(word.difficulty) {
 
@@ -507,7 +578,7 @@ document
         }
     );
 
-    //Disable a language selected in the Übersetzung dropbox
+//Disable a language selected in the Übersetzung dropbox
 function updateLanguageDropdowns() {
 
     const source =
@@ -549,4 +620,209 @@ document
     .addEventListener(
         "change",
         updateLanguageDropdowns
+    );
+
+//open search
+document
+    .getElementById(
+        "searchOption"
+    )
+    .addEventListener(
+        "click",
+        () => {
+
+            overlay
+                .classList
+                .add("hidden");
+
+            searchModal
+                .classList
+                .remove("hidden");
+
+            searchInput.value = "";
+
+            searchResults.innerHTML = "";
+
+            searchInput.focus();
+        }
+    );
+
+//close search
+document
+    .getElementById(
+        "closeSearch"
+    )
+    .addEventListener(
+        "click",
+        () => {
+
+            searchModal
+                .classList
+                .add("hidden");
+        }
+    );
+
+//live search
+function performSearch() {
+
+    const query =
+        searchInput.value
+        .toLowerCase()
+        .trim();
+
+    searchResults.innerHTML = "";
+
+    if(!query) return;
+
+    const matches =
+        vocabulary.filter(word => {
+
+            return (
+                word.french
+                    ?.toLowerCase()
+                    .includes(query)
+
+                ||
+
+                word.german
+                    ?.toLowerCase()
+                    .includes(query)
+
+                ||
+
+                word.english
+                    ?.toLowerCase()
+                    .includes(query)
+
+                ||
+
+                word.description
+                    ?.toLowerCase()
+                    .includes(query)
+            );
+        });
+
+    matches
+        .slice(0, 20)
+        .forEach(word => {
+
+            const div =
+                document.createElement(
+                    "div"
+                );
+
+            div.className =
+                "searchResult";
+
+            div.textContent =
+                `${word.french}
+                 → ${word.german}`;
+
+            div.addEventListener(
+                "click",
+                () => {
+
+                    currentWord = word;
+
+                    // Update question
+                    document
+                        .getElementById(
+                            "question"
+                        )
+                        .textContent =
+                        currentWord[
+                            sourceLanguage
+                        ] || "";
+
+                    // Open answer directly
+                    showAnswer();
+
+                    // Close search popup
+                    searchModal
+                        .classList
+                        .add("hidden");
+                }
+            );
+
+            searchResults
+                .appendChild(div);
+        });
+}
+
+//connect typing
+searchInput
+    .addEventListener(
+        "input",
+        performSearch
+    );
+
+//open modal
+document
+    .getElementById(
+        "categoryOption"
+    )
+    .addEventListener(
+        "click",
+        () => {
+
+            overlay
+                .classList
+                .add("hidden");
+
+            categoryModal
+                .classList
+                .remove("hidden");
+        }
+    );
+
+//close category menu and save by tapping outside
+
+categoryModal
+    .addEventListener(
+        "click",
+        (e) => {
+
+            if (
+                e.target === categoryModal
+            ) {
+
+                const checked =
+                    document.querySelectorAll(
+                        "#categoryList input:checked"
+                    );
+
+                selectedCategories =
+                    [...checked]
+                    .map(
+                        input =>
+                            input.value
+                    );
+
+                if (
+                    selectedCategories.length === 0
+                ) {
+
+                    selectedCategories = [
+                        "Sicherheit",
+                        "Fertigungstechnik",
+                        "Werkstofftechnik",
+                        "Elektrotechnik",
+                        "Sanitärtechnik",
+                        "Heizungstechnik",
+                        "Klimatechnik"
+                    ];
+                }
+
+                localStorage.setItem(
+                    "selectedCategories",
+                    JSON.stringify(
+                        selectedCategories
+                    )
+                );
+
+                categoryModal
+                    .classList
+                    .add("hidden");
+            }
+        }
     );
