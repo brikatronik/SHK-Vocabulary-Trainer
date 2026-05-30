@@ -1,5 +1,7 @@
 let vocabulary = [];
 let currentWord = null;
+let sourceLanguage = "french";
+let targetLanguage = "german";
 let stats = {
     easy: 0,
     hard: 0,
@@ -86,6 +88,39 @@ async function loadDatabase() {
     updateSession();
     updateStats();
     updateSession();
+    //Load saved language choice
+    const savedLanguages =
+    localStorage.getItem(
+        "languageSettings"
+    );
+
+    if(savedLanguages) {
+
+        const settings =
+            JSON.parse(savedLanguages);
+
+        sourceLanguage =
+            settings.sourceLanguage;
+
+        targetLanguage =
+            settings.targetLanguage;
+
+        // Update dropdowns
+        document
+            .getElementById(
+                "hintLanguage"
+            )
+            .value =
+            sourceLanguage;
+
+        document
+            .getElementById(
+                "guessLanguage"
+            )
+            .value =
+            targetLanguage;
+    }
+    updateLanguageDropdowns();
     showRandomWord();
 }
 
@@ -178,7 +213,7 @@ function showRandomWord() {
     document
         .getElementById("question")
         .textContent =
-        currentWord.french;
+        currentWord[sourceLanguage] || "";
 
     // Hide previous image
     document
@@ -197,7 +232,7 @@ function showAnswer() {
     document
         .getElementById("germanWord")
         .textContent =
-        currentWord.german;
+        currentWord[targetLanguage] || "";
 
     document
         .getElementById("description")
@@ -398,4 +433,120 @@ document
                 .classList
                 .add("hidden");
         }
+    );
+
+//Bestätigen behavior    
+document
+    .getElementById(
+        "confirmLanguage"
+    )
+    .addEventListener(
+        "click",
+        () => {
+
+            sourceLanguage =
+                document
+                .getElementById(
+                    "hintLanguage"
+                )
+                .value;
+
+            targetLanguage =
+                document
+                .getElementById(
+                    "guessLanguage"
+                )
+                .value;
+
+            // Save permanently
+            localStorage.setItem(
+                "languageSettings",
+                JSON.stringify({
+                    sourceLanguage,
+                    targetLanguage
+                })
+            );
+
+            // Close modal
+            modal
+                .classList
+                .add("hidden");
+
+            // Update CURRENT card
+            document
+                .getElementById(
+                    "question"
+                )
+                .textContent =
+                currentWord[
+                    sourceLanguage
+                ] || "";
+
+            // If answer visible,
+            // update translation too
+            if(
+                !document
+                .getElementById(
+                    "answer"
+                )
+                .classList
+                .contains(
+                    "hidden"
+                )
+            ) {
+
+                document
+                    .getElementById(
+                        "germanWord"
+                    )
+                    .textContent =
+                    currentWord[
+                        targetLanguage
+                    ] || "";
+            }
+        }
+    );
+
+    //Disable a language selected in the Übersetzung dropbox
+function updateLanguageDropdowns() {
+
+    const source =
+        document.getElementById(
+            "hintLanguage"
+        ).value;
+
+    const guessSelect =
+        document.getElementById(
+            "guessLanguage"
+        );
+
+    [...guessSelect.options]
+        .forEach(option => {
+
+            option.disabled =
+                option.value === source;
+        });
+
+    // If same selected, auto switch
+    if(
+        guessSelect.value === source
+    ) {
+
+        guessSelect.selectedIndex = 0;
+
+        if(
+            guessSelect.value === source
+        ) {
+            guessSelect.selectedIndex = 1;
+        }
+    }
+}
+
+document
+    .getElementById(
+        "hintLanguage"
+    )
+    .addEventListener(
+        "change",
+        updateLanguageDropdowns
     );
