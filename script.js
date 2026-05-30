@@ -329,3 +329,73 @@ document
     );
 
 loadDatabase();
+
+const overlay =
+    document.getElementById(
+        "overlay"
+    );
+
+const modal =
+    document.getElementById(
+        "languageModal"
+    );
+
+document
+    .getElementById(
+        "menuButton"
+    )
+    .addEventListener(
+        "click",
+        () => {
+
+            overlay
+                .classList
+                .remove("hidden");
+        }
+    );
+
+overlay
+    .addEventListener(
+        "click",
+        (e) => {
+
+            if(e.target === overlay) {
+
+                overlay
+                    .classList
+                    .add("hidden");
+            }
+        }
+    );
+
+document
+    .getElementById(
+        "languageOption"
+    )
+    .addEventListener(
+        "click",
+        () => {
+
+            overlay
+                .classList
+                .add("hidden");
+
+            modal
+                .classList
+                .remove("hidden");
+        }
+    );
+
+document
+    .getElementById(
+        "cancelLanguage"
+    )
+    .addEventListener(
+        "click",
+        () => {
+
+            modal
+                .classList
+                .add("hidden");
+        }
+    );

@@ -37,7 +37,7 @@ h1, h2, h3, p {
     text-align: center;
     font-size: clamp(24px, 5vw, 50px);
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 5px;
     line-height: 1.1;
 }
@@ -164,7 +164,7 @@ button {
     width: 100%;
     box-sizing: border-box;
 
-    font-size: 28px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -181,13 +181,13 @@ button {
     border-radius: 14px;
     padding: 10px;
     text-align: center;
-    font-size: 28px;
+    font-size: 35px;
 }
 
 #progressBarOuter {
 
     width: 100%;
-    height: 24px;
+    height: 35px;
 
     background: #c5c5c5;
     border-radius: 12px;
@@ -289,4 +289,120 @@ button {
     padding: 0 8px;
     font-size: clamp(18px, 2.5vw, 24px);
     }
+}
+
+#menuContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#menuButton {
+
+    width: 130px;
+    height: 130px;
+
+    font-size: 72px;
+
+    background: #e6e6e6;
+    color: #333;
+
+    border-radius: 24px;
+}
+
+/* Overlay */
+
+#overlay {
+
+    position: fixed;
+    inset: 0;
+
+    background:
+        rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    z-index: 1000;
+}
+
+#popupMenu {
+
+    width: 90%;
+
+    background: white;
+
+    border-radius: 20px 20px 0 0;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+#popupMenu button {
+
+    font-size: 42px;
+    min-height: 120px;
+}
+
+/* Modal */
+
+#languageModal {
+
+    position: fixed;
+    inset: 0;
+
+    background:
+        rgba(0,0,0,0.3);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 2000;
+}
+
+#languageBox h2 {
+
+    font-size: 54px;
+}
+
+#languageBox {
+
+    background: white;
+
+    width: 85%;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+#languageBox label {
+
+    font-size: 38px;
+}
+
+#languageBox select {
+
+    font-size: 36px;
+
+    padding: 20px;
+
+    border-radius: 16px;
+}
+
+.modalButtons button {
+
+    font-size: 42px;
+    margin-top: 10px;
+    min-height: 120px;
 }

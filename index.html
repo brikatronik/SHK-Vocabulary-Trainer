@@ -23,6 +23,15 @@
 
     <div class="bottom-section">
 
+        <!-- Hamburger button -->
+        <div id="menuContainer">
+
+            <button id="menuButton">
+                ☰
+            </button>
+
+        </div>
+
         <!-- Answer button -->
         <div id="mainButtons">
 
@@ -86,6 +95,87 @@
         </div>
 
     </div>
+
+    </div>
+
+        <!-- Popup overlay -->    
+    <div id="overlay" class="hidden">
+
+    <div id="popupMenu">
+
+        <button id="languageOption">
+            Sprache wählen
+        </button>
+
+        <button id="searchOption" disabled>
+            Wort suchen
+        </button>
+
+    </div>
+
+    </div>
+
+    <div id="languageModal" class="hidden">
+
+        <div id="languageBox">
+
+            <h2>
+                Sprache wählen
+            </h2>
+
+            <label>
+                Ausgangssprache
+            </label>
+
+            <select id="hintLanguage">
+
+                <option value="french">
+                    Französisch
+                </option>
+
+                <option value="german">
+                    Deutsch
+                </option>
+
+                <option value="english">
+                    Englisch
+                </option>
+
+            </select>
+
+            <label>
+                Übersetzung Sprache
+            </label>
+
+            <select id="guessLanguage">
+
+                <option value="german">
+                    Deutsch
+                </option>
+
+                <option value="french">
+                    Französisch
+                </option>
+
+                <option value="english">
+                    Englisch
+                </option>
+
+            </select>
+
+            <div class="modalButtons">
+
+                <button id="cancelLanguage">
+                    Abbrechen
+                </button>
+
+                <button id="confirmLanguage">
+                    Bestätigen
+                </button>
+
+            </div>
+
+        </div>
 
     </div>
 
