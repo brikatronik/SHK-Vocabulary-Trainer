@@ -281,6 +281,9 @@ function showRandomWord() {
     currentWord =
         chooseWeightedWord();
 
+    // Shows category of the card
+    updateCategoryBadge();
+    
     document
         .getElementById("question")
         .textContent =
@@ -298,7 +301,6 @@ function showRandomWord() {
         )
         .classList
         .add("hidden");
-
 
 }
 
@@ -869,3 +871,94 @@ document
             );
         }
     );
+
+// add colors to the categories
+function updateCategoryBadge() {
+
+    const badge =
+        document.getElementById(
+            "categoryBadge"
+        );
+
+    const category =
+        currentWord.category || "";
+
+    badge.textContent =
+        category;
+
+    badge.style.background = "#eeeeee";
+    badge.style.color = "#333333";
+
+    switch(category) {
+
+        case "Sicherheit":
+
+            badge.style.background =
+                "#f8c8c8";
+
+            badge.style.color =
+                "#7f1d1d";
+
+            break;
+
+        case "Fertigungstechnik":
+
+            badge.style.background =
+                "#e6d5ff";
+
+            badge.style.color =
+                "#4b2e83";
+
+            break;
+
+        case "Werkstofftechnik":
+
+            badge.style.background =
+                "#d6ecff";
+
+            badge.style.color =
+                "#1f4e79";
+
+            break;
+
+        case "Elektrotechnik":
+
+            badge.style.background =
+                "#fff4b8";
+
+            badge.style.color =
+                "#7a5a00";
+
+            break;
+
+        case "Sanitärtechnik":
+
+            badge.style.background =
+                "#ffe5b4";
+
+            badge.style.color =
+                "#7a4e00";
+
+            break;
+
+        case "Heizungstechnik":
+
+            badge.style.background =
+                "#b7e4c7";
+
+            badge.style.color =
+                "#1b4332";
+
+            break;
+
+        case "Klimatechnik":
+
+            badge.style.background =
+                "#d9c2a3";
+
+            badge.style.color =
+                "#5c4033";
+
+            break;
+    }
+}
