@@ -291,6 +291,15 @@ function showRandomWord() {
         .getElementById("pageImage")
         .classList.add("hidden");
 
+    // Hide google search button when next card appear
+    document
+        .getElementById(
+            "googleButton"
+        )
+        .classList
+        .add("hidden");
+
+
 }
 
 function showAnswer() {
@@ -333,6 +342,13 @@ function showAnswer() {
             "hidden"
         );
     
+    // Shows google search button when next card appear
+    document
+    .getElementById(
+        "googleButton"
+    )
+    .classList
+    .remove("hidden");
 }
 
 function saveProgress() {
@@ -776,7 +792,6 @@ document
     );
 
 //close category menu and save by tapping outside
-
 categoryModal
     .addEventListener(
         "click",
@@ -824,5 +839,33 @@ categoryModal
                     .classList
                     .add("hidden");
             }
+        }
+    );
+
+// Open Google Images
+document
+    .getElementById(
+        "googleButton"
+    )
+    .addEventListener(
+        "click",
+        () => {
+
+            const query =
+
+                currentWord.german +
+
+                " " +
+
+                currentWord.category;
+
+            window.open(
+
+                "https://www.google.com/search?tbm=isch&q=" +
+
+                encodeURIComponent(query),
+
+                "_blank"
+            );
         }
     );
