@@ -39,8 +39,14 @@ async function loadDatabase() {
                     );
 
                 return savedWord
-                    ? savedWord
+                    ? {
+                        ...word,
+                        difficulty: savedWord.difficulty,
+                        learned: savedWord.learned
+                    }
                     : word;
+
+
             });
     }
 
@@ -714,6 +720,18 @@ function performSearch() {
 
                 ||
 
+                word.turkish
+                    ?.toLowerCase()
+                    .includes(query)
+
+                ||
+
+                word.arabic
+                    ?.toLowerCase()
+                    .includes(query)
+
+                ||
+
                 word.description
                     ?.toLowerCase()
                     .includes(query)
@@ -732,9 +750,10 @@ function performSearch() {
             div.className =
                 "searchResult";
 
-            div.textContent =
-                `${word.french}
-                 → ${word.german}`;
+            div.innerHTML = `
+                <strong>${word[sourceLanguage]}</strong><br>
+                ${word[targetLanguage]}
+            `;
 
             div.addEventListener(
                 "click",
