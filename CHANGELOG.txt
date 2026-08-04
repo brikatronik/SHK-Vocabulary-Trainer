@@ -1,10 +1,14 @@
 # Changelog
 
+## V0.6 - 2026-08-04
+### Added
+- 2 language Turkish and Arabic
+
+---
+
 ## V0.5 - 2026-05-31
 ### Added
 - Search on Google image
-
-### Changed
 
 
 ---
